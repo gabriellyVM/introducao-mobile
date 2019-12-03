@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IntroducaoMobile.MainPage" Padding="10" >
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Image Source="arco.png" HeightRequest="200" WidthRequest="200" />
+        <Entry Placeholder="Informe seu login" x:Name="login"/>
+        <Entry Placeholder="Informe sua senha" IsPassword="True" x:Name="senha"/>
+        <Button Text="Logar" Clicked="logar" BackgroundColor="Aqua" />
+        <Button Text="Botão 1"/>
+        <Button Text="Botão 2"/>
+        <Button Text="Botão 3"/>
+    </StackLayout>
+
+</ContentPage>
