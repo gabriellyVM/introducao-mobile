@@ -1,1 +1,2 @@
 está é a primeira versão da SA do curso técnico de desenvolvimento de sistemas.
+Livre para uso não comercial.
